@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&display=swap');
+
+.grid {
+	display: grid;
+}
+
+.grid-template-areas-4 {
+	grid-template-columns: 30% 60% 10%;
+	grid-template-rows: 50px 150px 50px;
+	grid-template-areas:
+		"logo nav nav"
+		"content content content"
+		"footer footer footer"
+		;
+}
+
+.logo {
+	grid-area: logo;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.content {
+	grid-area: content;
+	font-family: 'M PLUS 1 Code', sans-serif;
+	
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.nav > span {
+    color: white;   
+    padding: 20px;    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&display=swap');
